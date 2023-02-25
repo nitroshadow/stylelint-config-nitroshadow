@@ -19,5 +19,8 @@
         "type": "git",
         "url": "git+https://github.com/nitroshadow/stylelint-config-nitroshadow.git"
     },
-    "scripts": {}
+    "scripts": {},
+    "dependencies": {
+        "stylelint-config-standard": "^30.0.1"
+    }
 }
