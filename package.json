@@ -23,7 +23,9 @@
         "type": "git",
         "url": "git+https://github.com/nitroshadow/stylelint-config-nitroshadow.git"
     },
-    "scripts": {},
+    "scripts": {
+        "lint": "eslint . --ignore-path .gitignore"
+    },
     "dependencies": {
         "stylelint-config-recess-order": "^4.0.0",
         "stylelint-config-standard": "^30.0.1",
