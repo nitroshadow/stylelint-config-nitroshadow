@@ -1,0 +1,37 @@
+{
+    "name": "stylelint-config-nitroshadow",
+    "version": "1.0.0",
+    "description": "Default stylelint config used by NitroShadow.",
+    "keywords": [
+        "nitroshadow",
+        "stylelint",
+        "stylelint-config",
+        "config",
+        "lint"
+    ],
+    "homepage": "https://github.com/nitroshadow/stylelint-config-nitroshadow#readme",
+    "bugs": {
+        "url": "https://github.com/nitroshadow/stylelint-config-nitroshadow/issues"
+    },
+    "license": "MIT",
+    "files": [
+        "index.js"
+    ],
+    "main": "index.js",
+    "author": "NitroShadow",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nitroshadow/stylelint-config-nitroshadow.git"
+    },
+    "scripts": {
+        "lint": "eslint . --ignore-path .gitignore"
+    },
+    "dependencies": {
+        "stylelint-config-recess-order": "^4.0.0",
+        "stylelint-config-standard": "^30.0.1",
+        "stylelint-config-standard-scss": "^7.0.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.34.0"
+    }
+}
