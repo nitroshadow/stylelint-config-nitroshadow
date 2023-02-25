@@ -14,6 +14,10 @@
         "url": "https://github.com/nitroshadow/stylelint-config-nitroshadow/issues"
     },
     "license": "MIT",
+    "files": [
+        "index.js"
+    ],
+    "main": "index.js",
     "author": "NitroShadow",
     "repository": {
         "type": "git",
